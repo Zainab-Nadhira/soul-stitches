@@ -22,6 +22,7 @@ export const AuthProvider = ({ children }) => {
       setLoading(false);
     }
   }, []);
+  
 
   const login = async (email, password) => {
     const res = await axios.post('/api/auth/login', { email, password });
