@@ -50,9 +50,7 @@ const LoginPage = () => {
           <p className="text-center text-sm text-gray-400 mt-5">
             Don't have an account? <Link to="/register" className="text-blush-500 hover:text-blush-600 font-medium">Sign up here</Link>
           </p>
-          <p className="text-center text-xs text-gray-400 mt-2">
-            Admin? Email: admin@soulstitches.in | Password: admin123
-          </p>
+          
         </div>
       </div>
     </div>
